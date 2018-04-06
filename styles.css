@@ -53,8 +53,9 @@ h2, h4{
     width: 500px;
     float: left;
     }
-    #main-p{
-        text-align: center;
+    #address{
+        margin: 20px;
+        list-style: none;
     }
     /* Testimonials */
     .testimonials{
@@ -65,6 +66,10 @@ h2, h4{
     }
     q{
         margin: 10px;
+    }
+    .author{
+        display: block;
+        margin: 20px auto;
     }
     .testimonial-image{
         width: 200px;
