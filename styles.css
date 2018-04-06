@@ -1,3 +1,7 @@
+.clearfix-overflow, .clearfix{
+    overflow: auto;
+}
+
 /* Nav Styles */
 #main-header{
    text-align: center;
@@ -14,17 +18,18 @@
    text-decoration: none;
 }
 
-.nav-item{
+#header-nav > .nav-item{
    border: 2px solid black;
    border-radius: 3px;
    margin: 3px;
    background-color: #6A9964;
 }
 
-.nav-item > a{
+#header-nav > .nav-item > a{
    color: black;
+   text-decoration: underline;
 }
-.nav-item > a:hover{
+#header-nav > .nav-item > a:hover{
    color: white;
 }
 
@@ -33,7 +38,52 @@
    margin-right: 50px;
 }
 /* Body Styles */
+h2, h4{
+    color: #6A9964;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+}
+    /* Main */
+    .main{
+        border-bottom: 2px solid black;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    #main-img{
+    width: 500px;
+    float: left;
+    }
+    #main-p{
+        text-align: center;
+    }
+    /* Testimonials */
+    .testimonials{
+        text-align: center;
+    }
+    .testimonial-paragraph{
+        border-bottom: 1px solid grey;
+    }
+    q{
+        margin: 10px;
+    }
+    .testimonial-image{
+        width: 200px;
+        margin: 10px;
+    }
 /* Footer Styles*/
+footer {
+    background-color: #6A9964;
+    color: black;
+    clear: both;
+    margin-top: 10px;
+}
+#footer-nav > .nav-item > a{
+    color: black;
+    text-decoration: underline;
+}
+#footer-nav > .nav-item > a:hover{
+    color: white; 
+}
 
 /*Media Queries*/
 @media (max-width: 768px) {
