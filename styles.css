@@ -14,17 +14,17 @@
    text-decoration: none;
 }
 
-.nav-item{
+#header-nav > .nav-item{
    border: 2px solid black;
    border-radius: 3px;
    margin: 3px;
    background-color: #6A9964;
 }
 
-.nav-item > a{
+#header-nav > .nav-item > a{
    color: black;
 }
-.nav-item > a:hover{
+#header-nav > .nav-item > a:hover{
    color: white;
 }
 
@@ -34,6 +34,9 @@
 }
 /* Body Styles */
 /* Footer Styles*/
+footer {
+    background-color: #6A9964;
+}
 
 /*Media Queries*/
 @media (max-width: 768px) {
