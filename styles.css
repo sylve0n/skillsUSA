@@ -40,3 +40,43 @@
    #header-logo{
        display: none;
    }
+}
+/* Jordan styles */
+html p{
+   font-size: 16px;
+}
+section{
+   margin: 4em auto;
+   padding: 5px;
+   box-shadow: 0.10em 0.10em black;
+   border-bottom: 0.10em solid black;
+   border-bottom-width: 0.1em;
+   
+}
+section img{
+   width: 30%;
+   float:left;
+   box-shadow: 0.25em 0.25em 0.10em black;
+}
+section p{
+   padding: 5px;
+}
+/* contact page */
+aside{
+   clear: both;
+   margin: 5em auto;
+}
+#officeHours{
+   float: left;
+   width: 45%;
+   border-right: 1px solid black
+}
+
+#location{
+   float: right;
+   width: 50%;
+}
+
+#locationList{
+   list-style-type: none;
+}
